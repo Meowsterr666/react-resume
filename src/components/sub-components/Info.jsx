@@ -1,7 +1,7 @@
 function Info() {
   return (
       <div>
-        <a href="#" className="hobby">Hobbies</a>
+        {/* <a href="#" className="hobby">Hobbies</a> */}
         <details className="detail-whole">
           <summary id="detail-container">Contact Me</summary>
             <p className="detail-item">
