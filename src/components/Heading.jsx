@@ -10,7 +10,7 @@ function Heading() {
         <h1>Hello!</h1>
         <div className="glitch">
           <h1 title="I'm Abel Pineda">I&#39;m Abel Pineda</h1>
-          <img src="./images/132092486.png"></img>
+          <img src="./../images/132092486.png"></img>
         </div>
         <div className="summary-box">
           <h1>Summary</h1>
