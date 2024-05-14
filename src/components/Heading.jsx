@@ -14,7 +14,7 @@ function Heading() {
           <h1 title="I'm Abel Pineda">I&#39;m Abel Pineda</h1>
           <img src={pic} alt="logo"/>
         </div>
-        <div className="summary-box">
+        <div>
           <h1>Summary</h1>
           <p className="summary-p">I am a fast learner who adapts well in my surrounding environment whether at home or at work. I am hard working always there to do the job&#39;s responsibilities and passionate daily in anything I do.</p>
         </div>

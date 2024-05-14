@@ -1,6 +1,6 @@
 function Award() {
   return (
-    <div>
+    <div className="award">
         <p>
           MCOE/MCAET (Video Production i) - 2017/18
         </p>

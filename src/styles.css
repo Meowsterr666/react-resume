@@ -9,7 +9,6 @@ html, body {
 }
 
 /* Start of heading */
-
 #menu-nav {
   display: grid;
   background-color: rgb(25, 23, 23);
@@ -31,16 +30,6 @@ div.second-heading {
   padding: 10px 40px 20px 40px;
 }
 /* Inside second heading */
-
-/* .ul-summary {
-  list-style: circle;
-  margin-bottom: 20px;
-  color: rgb(241, 239, 239);
-} */
-/* 
-li {
-  line-height: 30px;
-} */
 /* Glitch photo Piotr Galor */
 .glitch {
   animation: glitch 1s linear infinite;
@@ -141,11 +130,6 @@ img {
 }
 
 /* Photo glitch end */
-.summary-box {
-  text-align: center;
-  color: rgb(241, 239, 239);
-}
-
 h1 {
   margin: 10px 0px 10px 0px;
   color: rgb(241, 239, 239);
@@ -218,7 +202,6 @@ h2 {
 /* End of job card */
 /* Body end */
 /* Body container two */
-
 .body-container-two {
   background-color: rgb(49, 49, 49);
   padding: 10px 0px 30px 0px;
@@ -238,15 +221,6 @@ p {
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
   text-align: center;
-}
-
-.hobby {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0px 10px 0px;
-  font-size: larger;
-  color: rgb(202, 62, 71);
 }
 
 .detail-whole {
@@ -295,6 +269,46 @@ footer {
 
   .employer, .dates, .work-place, .role {
     font-size: small;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .award, .school {
+    margin: 0px 20px 0px 20px;
+    line-height: 30px;
+  }
+
+  .detail-whole {
+    background-color: rgb(25, 23, 23);
+    margin: 20px auto 0px auto;
+    width: 230px;  
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(202, 62, 71);
+  }
+  
+  #detail-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    color: rgb(241, 239, 239);
+    background-color: rgb(65, 65, 65);
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 2px 5px rgb(202, 62, 71);
+    border-radius: 5px;
+    width: 210px;  
+    text-align: center;
+  }
+  
+  .detail-item {
+    padding: 0px 10px 20px 10px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 23, 23);
+    padding: 10px 20px 10px 20px;
   }
 }
 
