@@ -10,7 +10,7 @@ function Heading() {
         <h1>Hello!</h1>
         <div className="glitch">
           <h1 title="I'm Abel Pineda">I&#39;m Abel Pineda</h1>
-          <img src="https://cdn-live.warthunder.com/uploads/dd/ef/44/d37303ffa94b14540f42230df30b48f178/Ghostemane+Symbol+1.png" alt="logo"/>
+          <img src="https://meowsterr666.github.io/react-resume/react-resume/images/pic.png" alt="logo"/>
         </div>
         <div className="summary-box">
           <h1>Summary</h1>
