@@ -8,7 +8,7 @@ html, body {
   */
   background-color: rgb(241, 239, 239);
   font-family: 'Exo 2', sans-serif;
-  }
+}
 
 /* Start of heading */
 
@@ -297,5 +297,11 @@ footer {
 
   .employer, .dates, .work-place, .role {
     font-size: small;
+  }
+}
+
+@media screen and (max-width: 283px) {
+  * {
+    display: none;
   }
 }
